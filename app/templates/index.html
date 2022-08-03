@@ -54,7 +54,8 @@
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="{% static 'img/profile.png' %}" alt="Imagem de perfil">
+                    {% comment %} <img src="{% static 'img/profile.png' %}" alt="Imagem de perfil"> {% endcomment %}
+                    <img src="#" alt="Imagem de perfil">
                 </div>
             </div>
         </div>
@@ -64,7 +65,8 @@
                 sejam fáceis de manter. Sou um pouco introvertido, mas consigo trabalhar em equipe, discutir sobre o
                 projeto e auxiliar os outros com meus conhecimentos
             </p>
-            <a href="{% static curriculum.pdf%}" target="_blank">Download CV</a>
+            {% comment %} <a href="{% static curriculum.pdf%}" target="_blank">Download CV</a> {% endcomment %}
+            <a href="#" target="_blank">Download CV</a>
         </div>
     </section>
 
